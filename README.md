@@ -13,15 +13,13 @@
 
 ## 1. Descrição da biblioteca/framework
 
-[Lombok](https://projectlombok.org/) é uma biblioteca para Java que fornece anotações e funcionalidades visando a redução de códigos _boilerplate_ (código repetitivo) em projetos Java, tornando o desenvolvimento mais dinâmico,
+[Lombok](https://projectlombok.org/) é uma biblioteca para Java que fornece anotações e funcionalidades visando a redução de códigos _boilerplate_ (código repetitivo) em projetos Java, tornando o desenvolvimento mais dinâmico.
 
 **Objetivos** do Lombok: <br>
 ![Lombok-Objetivos](https://github.com/neftissilva/BibliotecaTrabalhoLombok/assets/61604244/316b2ba0-bbba-4754-a0d3-f43f143ca004)
 
 
 ## 2. Descrição do problema
-
-Elabore uma situação hipotética que pode ser resolvida com a aplicação desta biblioteca/framework. Fique à vontade para utilizar recursos como diagramas, fotos, vídeos, etc.
 
 Java é uma linguagem bastante verbosa, isso acontece por diferentes motivos, mas um dos principais motivos é a existência de código _boilerplate_.
 
@@ -261,7 +259,6 @@ public class Livro {
         return Objects.hash(id);
     }
 }
-
 ```
 
 ## 3. Solução
@@ -271,7 +268,6 @@ public class Livro {
 - Verifiquem a redução de linhas de códigos comparado ao código JAVA anterior.
 
 #### [:page_facing_up: | ../entities/Livro.java (utilizando Lombok)](https://github.com/neftissilva/BibliotecaTrabalhoLombok/blob/master/src/main/java/br/edu/ifmt/biblioteca/entities/LivroLombok.java)
-
 ```
 package br.edu.ifmt.biblioteca.entities;
 
@@ -336,7 +332,6 @@ public class LivroLombok {
     private Long peso;
 
 }
-
 ```
 
 --
